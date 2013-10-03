@@ -1,0 +1,82 @@
+div.clear-divs{
+    clear: both;
+}
+span.SearchByTag-tag{
+    position: relative;
+    font-size: 14px;
+    font-family: Arial;
+    text-decoration: underline;
+    color:#0017c2;
+    height: 16px;
+    cursor: pointer;
+    margin:0 5px 0 0;
+	padding: 0;
+    z-index:1;
+}
+div.SearchByTag-popup{
+    display: none;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 330px;
+	margin: 0!important;
+	padding: 0!important;
+    z-index:2;
+}
+div.SearchByTag-popup-top{
+    background: url(../images/popup-top-bg.png) no-repeat scroll left top;
+	margin: 0!important;
+	padding: 0!important;
+    width: 331px;
+    height:5px;
+}
+div.SearchByTag-popup-bottom{
+    background: url(../images/popup-bottom-bg.png) no-repeat scroll left top;
+	margin: 0!important;
+	padding: 0!important;
+    width: 331px;
+    height:30px;
+}
+div.SearchByTag-popup-content{
+    background: url(../images/popup-bg.png) repeat-y scroll left top;
+	margin: 0!important;
+	padding: 0!important;
+    width: 331px;
+}
+div.SearchByTag-popup-content ul{
+	margin: 0!important;
+	padding: 0!important;
+}
+div.SearchByTag-popup-content li{
+    background: url(../images/arrow-right.png) no-repeat scroll 290px 15px!important;
+    width: 304px!important;
+    margin: 0 0 0 11px!important;
+	padding: 0 0 0 11px!important;
+    border-bottom: 1px solid #bbbbbb!important;
+    list-style: none!important;
+    text-align: left!important;
+}
+div.SearchByTag-popup-content li.last{
+    border-bottom: none!important;
+}    
+div.SearchByTag-popup-content a{
+    width: 278px!important;
+    height: 43px!important;
+    line-height: 43px!important;
+    padding: 0 0 0 40px!important;
+	margin: 0!important;
+    display: block!important;
+    color: #000000!important;
+    text-decoration: none!important;
+	font-family: Arial, Times New Roman,sans-serif!important;
+	font-size: 12px!important;
+}    
+div.SearchByTag-popup-content a.sbt-google-search{
+    background: url(../images/google.png) no-repeat scroll left 8px!important;
+}    
+div.SearchByTag-popup-content a.sbt-wp-search{
+    background: url(../images/wp-tags.png) no-repeat scroll left 8px!important;
+}    
+div.SearchByTag-popup-content a.sbt-wiki-search{
+    background: url(../images/wiki.png) no-repeat scroll left 8px!important;
+}

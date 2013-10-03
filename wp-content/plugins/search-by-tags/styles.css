@@ -1,0 +1,39 @@
+/* 
+    Document   : styles
+    Created on : Aug 23, 2012, 3:25:12 PM
+    Author     : Luda
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+    div.sbt-options-block{
+        background: url('images/options-form-bg.png') no-repeat scroll left top!important;
+        width:395px;
+        height:213px;
+        margin-top: 27px; 
+        padding: 1px 10px;
+    }
+    div.sbt-options-block h3{
+        margin-bottom: 35px;
+    }
+    table.form-table.sbt{
+        width:395px;
+    }
+    table.form-table.sbt th{
+        line-height: 15px;
+    } 
+    input.sbt-button-save,input.sbt-button-save:hover {
+        background: url('images/options-form-btn.png') no-repeat scroll left top!important;
+        border: none!important;
+        padding: 0 0 7px 0!important;
+        width: 270px;
+        height: 36px;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 18px!important;
+        font-family: Arial;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    }
+
+
